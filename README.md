@@ -1,0 +1,6 @@
+- Debouncing in React is a technique used to limit the rate at which a function gets executed.
+  - How Debouncing Works
+    - Event Trigger: An event (like typing in a search box) triggers a function call.
+    - Delay Execution: The function's execution is delayed by a specified time interval.
+    - Reset Timer: If the event is triggered again before the time interval elapses, the timer is reset.
+    - Execute Function: The function is only executed if the event is not triggered again within the specified time interval.
